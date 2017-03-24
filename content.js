@@ -1,5 +1,7 @@
+//for Youtube
 fuckOFFid('watch-discussion');
 
+//for The Oregonian
 var tick = 0
 for (var i = 0; i < 60; i++) {
     setTimeout(function() {
@@ -8,6 +10,11 @@ for (var i = 0; i < 60; i++) {
     }, 1000 * i);
 }
 
+//for The Guardian
+fuckOFFid('comments');
+
+//for Kotaku
+fuckOFFid('js_discussion-region');
 
 function fuckOFFid(fuckTHISone) {
   var elem = document.getElementById(fuckTHISone);
