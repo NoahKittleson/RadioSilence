@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Radio Silence",
-  "description": "This extension shows a Google Image search result for the current page",
+  "description": "This extension deletes comment sections of certain websites",
   "version": "1.0",
 
   "browser_action": {
