@@ -10,11 +10,11 @@
     "default_title": "Click Here!"
   },
 
+  "permissions": [
+    "https://www.youtube.com/*"
+  ],
+
   "content_scripts": [
-     {
-       "matches": ["http://jquery.com/*"],
-       "js": ["jquery-3.2.0.js", "content.js"]
-     },
      {
        "matches": ["*://*/*"],
        "js": ["content.js"],

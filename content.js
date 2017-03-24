@@ -1,6 +1,14 @@
-// var element = document.getElementById("desktopNav")
+// var element = document.getElementById("desktopNav");
+// console.print(element);
 // element.html('<p>Comment Section blocked by RadioSilence.</p>');
+// alert("fuck");
 
 
-var replaced = $("body").html().replace(/text/g,'replace');
-$("body").html('');
+// document.body.innerHTML = document.body.innerHTML.getElementById("bannerandheader").html('');
+//
+// var test = document.body.innerHTML;
+// var element = test.getElementById("bannerandheader");
+// element.html('');
+
+var elem = document.getElementById("bannerandheader");
+elem.parentNode.removeChild(elem);
